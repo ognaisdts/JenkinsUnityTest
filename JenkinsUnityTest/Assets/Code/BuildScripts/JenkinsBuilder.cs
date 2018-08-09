@@ -29,6 +29,7 @@ static class JenkinsBuilder {
 
  static string GetBatchOutputPath()
  {
+        int a = 1;//dummy 
   var args = Environment.GetCommandLineArgs();
   for (int ii = 0; ii < args.Length; ++ii)
   {
